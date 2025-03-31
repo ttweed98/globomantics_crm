@@ -22,18 +22,19 @@ class Database:
 
         # Open the specified database file for reading and perform loading
         with open(path, "r") as handle:
-            # import json
-            # self.data = json.load(handle)
+            import json
+
+            self.data = json.load(handle)
 
             # ALTERNATIVE IMPLEMENTATIONS: Using YAML or XML to load data
             # import yaml
 
             # self.data = yaml.safe_load(handle)
 
-            import xmltodict
+            # import xmltodict
 
-            self.data = xmltodict.parse(handle.read())["root"]
-            print(self.data)
+            # self.data = xmltodict.parse(handle.read())["root"]
+            # print(self.data)
 
     def balance(self, acct_id):
         """
