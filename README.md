@@ -4,6 +4,8 @@ Still under development, but it will be amazing
 ## Really dangerous
 Making changes in github
 
+> Note: version 2 will be way better
+
 # Module 3: Working with Structured Data and Local Version Control
 This contains the files for the CRM application with the relevant updates
 made in this module. Note that these files are also used for
